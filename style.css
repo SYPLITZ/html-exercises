@@ -1,0 +1,30 @@
+.background {
+    background-image: linear-gradient(to bottom, #794cf0, #FFFF00)
+}
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    
+
+}
+
+.cabeçalho {
+    background-color: #589e6b;
+    border-width: 10px;
+    border-style: double;
+    border-color: #55E77D;
+    border-radius: 24px;
+}
+
+.imagem {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin-right: 50px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #55E77D;
+    border-radius: 50px;
+}
