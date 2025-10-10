@@ -1,30 +1,124 @@
-.background {
-    background-image: linear-gradient(to bottom, #794cf0, #FFFF00)
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.test {
+body {
+    font-family: Arial, sans-serif;
+  background-color: #08527A;
+  color: #f1f1f1;
+  line-height: 1.6;
+  margin: 0;
+/* Modificação do header */
+}
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(90deg, #10A5B2, #F7A173)
+  
+}
+header h1 {
+    text-align: center;
+    color: #220D02;
+    font-size: 50px;
+}
+header h2 {
+    color: #672806;
+    text-align: center;
+    font-size: 30px;   
+}
+header img {
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    float: left;
+    max-height: 100px;
+    max-width: 100px;
     
 
 }
 
-.cabeçalho {
-    background-color: #589e6b;
-    border-width: 10px;
-    border-style: double;
-    border-color: #55E77D;
-    border-radius: 24px;
+
+/* Biografia */
+.biography {
+    background-color: #09636B;
+    border-color: #09636B;
+    margin: 50px 20px 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+.biography strong {
+    color: #322552;
+}
+.biography h3 {
+    color: #322552;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.biography a {
+    color: #BBBDF6;
+    text-shadow: 2px 2px 4px black;
+
+}
+.biography a:hover {
+    color: #636593;
 }
 
-.imagem {
-    float: left;
-    width: 250px;
-    height: auto;
-    margin-right: 50px;
+
+/* Formação de Marie */
+.formation {
+    background-color: #09636B;
+    border-color: #09636B;
+    border-style: solid;
     border-width: 5px;
-    border-style: dashed;
-    border-color: #55E77D;
-    border-radius: 50px;
+    border-radius: 10px;
+    margin: 20px 20px 20px;
+}
+.formation h3 {
+    color: #322552;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.formation a {
+    color: #BBBDF6;
+    text-shadow: 2px 2px 4px black;
+}
+.formation a:hover {
+    color: #636593;
+}
+
+
+/* Linha Horizontal */
+hr {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #063751;
+}
+
+
+/* Informações adicionais */
+.moreinfo {
+    background-color: #09636B;
+    border-color: #09636B;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+/* Endereço */
+address {
+    margin-top: 10px;
+    background-color: #031B29;
+    color: #BBBDF6;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
 }
